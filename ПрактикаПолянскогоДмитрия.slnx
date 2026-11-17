@@ -1,4 +1,4 @@
 <Solution>
-  <Project Path="MyLibrary/MyLibrary.csproj" />
-  <Project Path="ПрактикаПолянскогоДмитрия/ПрактикаПолянскогоДмитрия.csproj" />
+  <Project Path="MyLibrary/MyLibrary.csproj" Id="7ecdfad8-15a0-4a0f-aa4c-7461187fd301" />
+  <Project Path="ПрактикаПолянскогоДмитрия/ПрактикаПолянскогоДмитрия.csproj" Id="195e4170-40d9-42c9-be69-ee20eea83a66" />
 </Solution>
