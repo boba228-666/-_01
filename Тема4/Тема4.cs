@@ -10,6 +10,7 @@ namespace Тема4
     {
         static void Main(string[] args)
         {
+            //это блок, в котором потенциально может произойти ошибка
             try
             {
                 Console.Write("Введите первое число: ");
@@ -21,21 +22,22 @@ namespace Тема4
                 int x = number1 / number2;
                 Console.WriteLine($"Ответ: {x}");
             }
+            // catch срабатывает если в try случилась ошибка
             catch (FormatException)
             {
-                Console.WriteLine("Вводите только цифры");
+                Console.WriteLine("Вводите только цифры");// срабатывает если пользователь ввел другие символы вместо цифр
             }
             catch (DivideByZeroException)
             {
-                Console.WriteLine("На ноль делить нельзя!");
+                Console.WriteLine("На ноль делить нельзя!");// срабатывает если второе число равно 0
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Произошла ошибка: {ex.Message}");
+                Console.WriteLine($"Произошла ошибка: {ex.Message}");// срабатывает при непредвиденных ошибках
             }
             finally
             {
-                Console.WriteLine("Программа завершила работу");
+                Console.WriteLine("Программа завершила работу");//всегда срабатывает в самом конце и завершает работу программы
             }
         }
     }

@@ -1,6 +1,8 @@
 <Solution>
   <Project Path="MyLibrary/MyLibrary.csproj" Id="7ecdfad8-15a0-4a0f-aa4c-7461187fd301" />
   <Project Path="ПрактикаПолянскогоДмитрия/ПрактикаПолянскогоДмитрия.csproj" Id="195e4170-40d9-42c9-be69-ee20eea83a66" />
+  <Project Path="Тема 6/Тема 6.csproj" Id="b3c59601-b369-497f-b585-0baccff88c75" />
+  <Project Path="Тема 7/Тема 7.csproj" Id="b6b771de-be40-43cc-b989-34d1cb1c7d63" />
   <Project Path="Тема4/Тема4.csproj" Id="52894423-8bb3-48cf-ab74-22fef968cc61" />
   <Project Path="Тема5/Тема5.csproj" Id="1a2dd8b3-ff99-4483-9566-100aca6a035f" />
 </Solution>
